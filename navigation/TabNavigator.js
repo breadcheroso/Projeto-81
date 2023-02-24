@@ -25,6 +25,6 @@ tabBarOptions={{
 }}
 >
 <Tab.Screen name="Feed" component={Feed} options={{headerShown:false}}/>
-      <Tab.Screen name="Criar Post" component={CreateStory} options={{headerShown:false}}/>
+      <Tab.Screen name="Criar Post" component={CreatePost} options={{headerShown:false}}/>
     </Tab.Navigator>
 )}
